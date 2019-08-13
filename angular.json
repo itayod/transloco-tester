@@ -5,7 +5,14 @@
   "projects": {
     "transloco-tester": {
       "projectType": "application",
-      "schematics": {},
+      "schematics": {
+        "@ngneat/transloco:component": {
+          "style": "sass"
+        },
+        "@schematics/angular:component": {
+          "style": "sass"
+        }
+      },
       "root": "",
       "sourceRoot": "src",
       "prefix": "app",

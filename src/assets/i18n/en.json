@@ -1,0 +1,7 @@
+{
+  "title": "transloco en",
+  "dynamic": "transloco {{value}}",
+  "lazy-page": {
+    "title": "lazy-page"
+  }
+}
