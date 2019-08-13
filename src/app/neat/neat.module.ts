@@ -13,7 +13,6 @@ import { NeatComponent } from './neat/neat.component';
     NeatRoutingModule
   ],
   providers: [
-    { provide: TRANSLOCO_SCOPE, useValue: 'neat' },
     {
       provide: TRANSLOCO_LOADING_TEMPLATE,
       useValue: `<span id="default-loading-template">Loading template...</span>`
