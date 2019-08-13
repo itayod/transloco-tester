@@ -13,11 +13,10 @@ export class NeatComponent implements OnInit {
   }
 
   ngOnInit() {
-    // this.translate.setTranslationKey('title', 'New title');
     const newTranslation = {
       title: 'New translation title'
     };
-    this.translate.setTranslation('en', newTranslation);
+    this.translate.setTranslation('neat/en', newTranslation);
   }
 
 }

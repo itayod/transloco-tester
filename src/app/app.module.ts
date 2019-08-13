@@ -24,7 +24,7 @@ import { CoolComponent } from './cool/cool.component';
       provide: TRANSLOCO_CONFIG,
       useValue: {
         listenToLangChange: true,
-        defaultLang: 'es',
+        defaultLang: 'en',
         prodMode: environment.production
       } as TranslocoConfig
     },
